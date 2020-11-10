@@ -20,5 +20,6 @@ from anostas_app.views import hello_world, index
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('hello/', hello_world),
-    path('index/', index)
+    path('index/', index),
+
 ]

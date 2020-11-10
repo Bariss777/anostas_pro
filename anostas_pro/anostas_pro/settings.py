@@ -25,7 +25,7 @@ SECRET_KEY = 'ygbl$9&3_e2%j_u+0u=7z=g#hnec@ef89-00%*$f$0@-3jeo-&'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', '185.75.181.225']
+ALLOWED_HOSTS = ['0.0.0.0', '127.0.0.1', '185.75.181.225', 'anostas.ru']
 
 
 # Application definition
