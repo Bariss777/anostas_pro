@@ -7,3 +7,7 @@ def hello_world(request):
 
 def index(request):
     return HttpResponse('INDEX')
+
+
+def post_list(request):
+    return render(request, 'anostas_app/post_list.html', {})    
